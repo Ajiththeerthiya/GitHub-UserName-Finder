@@ -17,7 +17,7 @@ function Profile({ data }) {
                         <img src={avatar_url} className="img-st" alt="userImage" />
                     </div>
                     <div className="card-body">
-                        <a href={html_url} className='tit'><h5 className="card-title" >{name != null ? name : login}</h5></a>
+                        <a href={html_url} className='tit' target='_blank'><h5 className="card-title" >{name != null ? name : login}</h5></a>
                         <p className='bio'>{bio}</p>
                         <div className="loc">
                             <div className="location">
