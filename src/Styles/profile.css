@@ -1,0 +1,67 @@
+.profile {
+    min-height: 80vh;
+    width: 100%;
+}
+
+.card-width {
+    border: 2px solid white;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #faebd7;
+    border-radius: 2rem;
+    box-shadow: 10px 10px black;
+}
+
+/* background-color: #faebd7; */
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.img-st {
+    border-radius: 100%;
+    width: 50%;
+}
+
+.tit {
+    text-align: center;
+    text-decoration: none;
+    color: #112A46;
+}
+
+.bio {
+    line-height: normal;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.loc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-location {
+    color: #EA4335;
+}
+
+.repo {
+    text-align: center;
+    margin-top: .7rem;
+    color: #47037B;
+}
+
+.joinined{
+    margin-top: .5rem;
+    text-align: center;
+    color: #160F24;
+}
